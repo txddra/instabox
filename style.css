@@ -50,9 +50,28 @@
     height: 20px;
     width: 20px;
 }
-
+/* grayed out text preceding the links  */
+#followed-by{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color:grey;
+    font-size: small;
+    font-weight: bold;
+}
+/* followed by thedailyshow and kevin links */
+.followed-link{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color:black;
+}
 /* matches the logo provided */
 
 body{
 background-color: #FAFAFA;
+}
+ 
+
+#footer{
+    display: flex;
+    flex-direction: row;
 }
