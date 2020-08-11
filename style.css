@@ -1,3 +1,11 @@
+/* contains the entire app */
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* contains the instagram, checkmark, following and '...'  */
 #heading {
     /* height: 20%; */
@@ -103,7 +111,8 @@ background-color: #FAFAFA;
     display: flex;
     flex-direction: row;
     /* how can i center it and space them evenly */
-    justify-content:center;
+    justify-content:space-evenly;
+    width: 80%;
     /* height: 100px; */
     /* margin: 0 auto; */
 
